@@ -1,0 +1,48 @@
+body {
+    background-image: url("space.jpg");
+    background-color: #cccccc;
+    color: orange;
+    text-align: center;
+}
+
+
+button {
+    margin: 10px;
+    /* margin-left: 50px; */
+    background-color: grey; /* Green */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+  }
+
+#title {
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+#myList {
+    border-radius: 25px;
+    border-style: solid;
+    border-color:orange;
+    color: white;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    height: 220px;
+    padding: 10px;
+    list-style-type: none;
+}
+
+#person {
+    color: black;
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 10px;
+}

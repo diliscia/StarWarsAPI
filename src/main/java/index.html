@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">    <body>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="container d-flex" >
+            <h1 id="title" class="row center">StarWars API</h1>
+            <div class="info-container">
+              <ul id="myList"></ul>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 text-center">
+                <button class=" justify-content-center align-content-center " type="button" id="buttonPeople" name="buttonPeople">People</button>
+                <button class=" justify-content-center align-content-center " type="button" id="buttonPlanets" name="buttonPlanets">Planets</button>
+                <button class=" justify-content-center align-content-center " type="button" id="buttonShips" name="buttonShips">Starships</button>
+              </div>
+            </div>
+          </div>
+          <h4 id="title" class="row center">Search for a person</h4>
+          <div class="info-container">
+             <input id="person"></input>
+          </div>
+          <button class="row d-flex justify-content-center align-content-center " type="button" id="buttonPerson" name="buttonPerson">Search</button>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.js" integrity="sha512-rozBdNtS7jw9BlC76YF1FQGjz17qQ0J/Vu9ZCFIW374sEy4EZRbRcUZa2RU/MZ90X2mnLU56F75VfdToGV0RiA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="app.js" charset="utf-8"></script>
+        <footer>
+          <p>By Marcelo Di Liscia for KinoKlik 2022</p>
+        </footer>
+    </body>
+</html>
