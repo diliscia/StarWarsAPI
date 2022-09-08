@@ -26,4 +26,12 @@ mandatory in case embedded PHP,Ruby or any other language is preferred.
 choice.
 ● You can also use any Javascript library or plugin you desire (or none at all!).
 
+
+#### StarWars API User Interface main:
+![](starwarsapi_i.png)
+
+#### Person List:
+![](starwarsapi-.png)
+
+#### Person Search:
 ![](starwarsapi.png)
