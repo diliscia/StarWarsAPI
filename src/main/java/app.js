@@ -71,7 +71,10 @@ function searchPersonByName() {
     let apiUrl = 'https://swapi.dev/api/people'
     axios.get(apiUrl).then(response =>{
         const person = document.getElementById('person').value
-
+        if (person === "") {
+            li.innerText =  "Please enter a name\n"
+            list.appendChild(li);
+        }
 
         for (i = 0; i <= response.data.results.length; i++) {
             if (response.data.results[i].name === person) {
@@ -82,17 +85,8 @@ function searchPersonByName() {
                 + "\nHeight: " + response.data.results[i].height + " cm"
                 + "\nMass: " + response.data.results[i].mass + " kg"
                 }
-               
-            } 
-            if (response.data.results[i].name !== person){
-                if (person === "") {
-                    li.innerText =  "Please enter a name\n"
-                    list.appendChild(li);
-                } else {
-                li.innerText =  "Person NOT found\n\n";
-                }
+                list.appendChild(li);
             }
-            list.appendChild(li);
         } 
     }) 
 };
