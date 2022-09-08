@@ -20,11 +20,17 @@ endpoints required for the use cases above.
 of a JS Framework is recommended (React, Vue, Angular...) , but not
 mandatory in case embedded PHP,Ruby or any other language is preferred.
 
-## Instructions
+## Instructions to run the aplication:
 
-● Use the Backend programming language and/or framework solution of your
-choice.
-● You can also use any Javascript library or plugin you desire (or none at all!).
+- Download the whole folder StarWarsAPI in your computer. You can clone the repository or ask to open it using GitHub Desktop.
+
+- Use an editor (like Visual Studio Code or Intellij Idea) to open the folder.
+
+- Look for the index.html file located in ..src/main/java/ and Run the project.
+
+- The People button shows the list of people, the Planets button the list of planets and the StarShips button shows the list of ships.
+
+- To search for a person you must write the name in the text box and click on Search.
 
 
 #### StarWars API User Interface main:
