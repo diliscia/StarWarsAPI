@@ -31,7 +31,7 @@ choice.
 ![](starwarsapi_i.png)
 
 #### Person List:
-![](starwarsapi-.png)
+![](starwarsapi_.png)
 
 #### Person Search:
 ![](starwarsapi.png)
